@@ -1,0 +1,5 @@
+pipeline:
+    prepare:
+        image: hashicorp/terraform
+        commands:
+            - echo "hello world"
